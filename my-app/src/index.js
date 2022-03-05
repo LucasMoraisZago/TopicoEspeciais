@@ -4,8 +4,9 @@ import  ReactDOM  from "react-dom";
 // import  {CompA, CompB as B}  from "./componentes/DoisComponentes";
 // import  {Teste1,Teste2,Teste3}  from "./componentes/MultiElementos";
 // import  FamiliaGomes  from "./componentes/FamiliaGomes";
-import  Familia  from "./componentes/Familia";
-import  Nome  from "./componentes/Nome";
+// import  Familia  from "./componentes/Familia";
+// import  Nome  from "./componentes/Nome";
+import ComponenteComFuncao from "./componentes/ComponenteComFuncao";
 
 
 
@@ -24,12 +25,19 @@ ReactDOM.render(
         <Teste2/>
         <Teste3/> */}
         {/* <FamiliaGomes/> */}
-        <Familia>
+        {/* <Familia>
             <Nome nome="Lucas" sobrenome=" Zago"/>
             <Nome nome="Antonio" sobrenome=" Zago"/>
             <Nome nome="Joaquim" sobrenome=" Zago"/>
             <Nome nome="José" sobrenome=" Zago"/>
-        </Familia>
+        </Familia> */}
+        {/* <Familia sobrenome=" Zago" endereco=" Rua teste" numero=" nº1111" cidade="Franca" estado=" SP">
+            <Nome nome="Luis" />
+            <Nome nome="Joaquim" sobrenome=" Zago"/>
+            <Nome nome="José" sobrenome=" Zago"/>
+        </Familia> */}
+        {/* <FamiliaGomes sobrenome=" Zago"/> */}
+        <ComponenteComFuncao/>
     </div>
     ,element
 )
