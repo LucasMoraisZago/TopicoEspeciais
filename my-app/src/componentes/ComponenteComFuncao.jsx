@@ -1,15 +1,17 @@
-import React from "react";
+import React from "react"
 
-const aprovados = ["Alexandre","Joyce","Janaina","Josimara"]
+const aprovados = ["Alexandre", "Joyce", "Janaina", "Josimara"]
 
 export default props => {
+
     const gerarItens = itens => {
-        return itens.map(item=><li>{item}</li>)
+        return itens.map(item => <li>{item}</li>)
     }
 
-    return (
+    return(
         <ul>
             {gerarItens(aprovados)}
         </ul>
     )
+
 }

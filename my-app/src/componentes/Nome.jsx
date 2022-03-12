@@ -8,5 +8,4 @@ export default props =>
         {props.numero}
         {props.cidade}
         {props.estado}
-
     </div>
